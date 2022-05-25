@@ -1,14 +1,32 @@
-import { Col, Container, Image, Row, Button, Card } from "react-bootstrap";
+
+import { Col, Container, Image, Row, Button, Card,Carousel } from "react-bootstrap";
+import Gallery5 from "../LUCA_Images/Gallery5.jpg";
 import Gallery3 from "../LUCA_Images/Gallery3.jpg";
+import Gallery2 from "../LUCA_Images/Gallery2.jpg";
+import Gallery1 from "../LUCA_Images/Gallery1.jpg";
 import halloween from "../LUCA_Images/halloween.jpg"; 
 import singular from "../LUCA_Images/singular.png";
 
-
 export const HomeScreen = () => {
+
   return (
-    <Container className="no-padding">
+    <Container className="no-padding" >
       <Row >
-        <Image src={Gallery3} />
+        <Carousel>
+          <Carousel.Item >
+          <Image className="pic" src={Gallery3} />
+          </Carousel.Item>
+          <Carousel.Item>
+          <Image className="pic" src={Gallery2} />
+          </Carousel.Item>
+          <Carousel.Item>
+          <Image className="pic" src={Gallery1} />
+          </Carousel.Item>
+          <Carousel.Item>
+          <Image className="pic" src={Gallery5} />
+          </Carousel.Item>
+        </Carousel>
+        
       </Row>
       <Row className="white spacer" />
       <Row className="black co">

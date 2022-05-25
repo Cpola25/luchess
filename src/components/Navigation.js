@@ -26,6 +26,7 @@ export const Navigation = () => {
                 <Container >
                 <Nav fill className="m-auto ">
                     <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/login">Login</Nav.Link></Nav.Item>
                 </Nav>
                 </Container>
             </Navbar.Collapse>
