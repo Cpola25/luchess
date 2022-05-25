@@ -31,8 +31,9 @@ export const HomeScreen = () => {
       <Row className="white spacer" />
       <Row className="black co">
         <Image className="ima" src={singular} />
-        <Col className="fo fonts-style">
-          <p className="indent-fo">Founded for all Lamar University</p>
+        <Col className="fo fonts-style indent-fo">
+          <Container>
+          <p className="in" >Founded for all Lamar University</p>
           <p>
             {" "}
             <strong className="strong">STUDENTS</strong>,{" "}
@@ -40,12 +41,12 @@ export const HomeScreen = () => {
             <strong className="strong">STAFF</strong>, and{" "}
             <strong className="strong">ALUMNI</strong>
           </p>
-          <p className="indent-fo">interested in the game of chess.</p>
-
+          <p className="in">interested in the game of chess.</p>
+          </Container>
           <Button className="buto fonts-style">Join Us</Button>
         </Col>
       </Row>
-      <Row className="white spacer" />
+      <Row className="grey spacer" />
     
     </Container>
   );
