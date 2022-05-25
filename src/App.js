@@ -8,7 +8,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 function App() {
   return (
-    <Container className="no-padding">
+    <Container fluid>
       <Row>
         <Navigation></Navigation>
       </Row>

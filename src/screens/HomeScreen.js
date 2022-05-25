@@ -10,30 +10,30 @@ import singular from "../LUCA_Images/singular.png";
 export const HomeScreen = () => {
 
   return (
-    <Container className="no-padding" >
+    <Container fluid >
       <Row >
         <Carousel>
           <Carousel.Item >
-          <Image className="pic" src={Gallery3} />
+          <Image className="carousel-pics" src={Gallery3} />
           </Carousel.Item>
           <Carousel.Item>
-          <Image className="pic" src={Gallery2} />
+          <Image className="carousel-pics" src={Gallery2} />
           </Carousel.Item>
           <Carousel.Item>
-          <Image className="pic" src={Gallery1} />
+          <Image className="carousel-pics" src={Gallery1} />
           </Carousel.Item>
           <Carousel.Item>
-          <Image className="pic" src={Gallery5} />
+          <Image className="carousel-pics" src={Gallery5} />
           </Carousel.Item>
         </Carousel>
         
       </Row>
       <Row className="white spacer" />
-      <Row className="black co">
-        <Image className="ima" src={singular} />
-        <Col className="fo fonts-style indent-fo">
-          <Container>
-          <p className="in" >Founded for all Lamar University</p>
+      <Row className="black extra-padding fo fonts-style">
+          <Container fluid>
+           
+          <Image fluid className="HS-Image"src={singular} />
+          <p className="extraText-padding" >Founded 2021 for all Lamar University</p>
           <p>
             {" "}
             <strong className="strong">STUDENTS</strong>,{" "}
@@ -41,10 +41,10 @@ export const HomeScreen = () => {
             <strong className="strong">STAFF</strong>, and{" "}
             <strong className="strong">ALUMNI</strong>
           </p>
-          <p className="in">interested in the game of chess.</p>
-          </Container>
+          <p>with a passion for the game of chess.</p>
           <Button className="buto fonts-style">Join Us</Button>
-        </Col>
+          
+          </Container>
       </Row>
       <Row className="grey spacer" />
     
