@@ -3,19 +3,72 @@
 */
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.715) !important;
+    background-color: rgba(0, 0, 0, 0.898) !important;
     width: auto !important;
     
+}
+.nav-button{
+    background-color: transparent !important;
+    border-color: transparent !important;
+    font-size: 1vw !important;
+    margin: 0px 6% 0px 6% !important;
+    height: max-content !important;
+
+}
+.nav-button:hover{
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: rgb(255, 0, 0) !important;
+    font-weight: bolder !important;
+}
+.nav-button:active{
+    background-color: transparent !important;
+    border-color: transparent !important;
+    margin-top: 2% !important;
+}
+.login-button{
+    background-color: rgb(120, 2, 2) !important;
+    font-weight: bolder !important;
+    border-width: 5px !important;
+    border-style: inset;
+    border-color: red !important;
+    font-size: 1vw !important;
+    margin-left: 5% !important;
+}
+.login-button:hover{
+    background-color: rgb(142, 45, 45) !important;
+    border-color: rgb(230, 109, 109) !important;
+}
+.login-button:active{
+    background-color: rgb(193, 10, 10) !important;
+    border-color: rgb(233, 78, 78) !important;
+    height: 80% !important;
+    margin-top: 2% !important;
 }
 .logo {
     max-width: 5% !important;
     margin-left: 2% !important;
 }
-
+.container-float{
+    margin-left: 20%;
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+}
 /** Fonts */
 .fonts-style {
     color: rgb(255, 255, 255);
     font-family: 'Source Code Pro', monospace;
+}
+.fonts-style-dark{
+    color: black !important;
+}
+.font-small{
+    font-size: 1vw !important;
+}
+.font-large{
+    font-size: 2vw !important;
+}
+.font-regular{
     font-size: 1.5vw !important;
 }
 .strong{
@@ -26,18 +79,31 @@
     font-weight: bolder !important;
 }
 
-
+.hr:not([size]){
+    height: 5px; 
+    width: 80%;
+    align-self: center;
+    margin-left: 10%;
+}
+.yo{
+    max-width: 60% !important;
+    margin-left: 20% !important;
+}
 /** HomeScreen */
+
+.card{
+    background-color: black !important;
+}
 .HS-Image {
     max-width: 25% !important;
     margin-left: 15% !important;
     float: left !important;
 }
 .extra-padding{
-    padding: 5% 0% 5% 0% !important;
+    padding: 7% 0% 5% 0% !important;
 }
 .extraText-padding{
-    padding-top: 5% !important;
+    margin-top: 5% !important;
 }
 .row>*{
     padding-left: 0px !important;
@@ -47,20 +113,43 @@
     width: 100% !important;
 }
 .spacer{
-    height: 2% !important;
+    height: 1% !important;
 }
 
-
-
-
-
+.event{
+    max-width: 15% !important;
+    margin-right: 2% !important;
+    border-radius: 0% !important;
+}
+.yT{
+    margin-right: 2% !important;
+    height: 175% !important;
+    width: 46% !important;
+}
+.bottom-margin{
+    margin-bottom: 3% !important;
+}
+.top-margin{
+    margin-top: 3% !important;
+}
+.zoom{
+    overflow: hidden !important;
+    margin: 0 auto !important;
+}
+.zoom img{
+width: 95% !important;
+transition: 0.5s all ease-in-out !important;
+}
+.zoom:hover img{
+    transform: scale(1.5) !important;
+}
 /** WebColors */
 .black {
     background-color: rgb(0, 0, 0) !important;
 }
 
 .white {
-    background-color: white !important;
+    background-color: rgb(209, 208, 208) !important;
 }
 
 .red_1 {
@@ -70,13 +159,12 @@
 .red_2 {
     background-color: rgb(161, 63, 63) !important;
 }
-
-.grey {
-    background-color: rgb(78, 78, 78) !important;
+.red_3{
+    background-color: rgb(253, 0, 0);
 }
-
-
-
+.grey {
+    background-color: rgb(156, 156, 156) !important;
+}
 
 
 /**Buttons*/
@@ -98,6 +186,14 @@
 }
 .buto:active {
     border: transparent;
-    
-
+}
+.card-button{
+    width: 100% !important;
+    background-color: rgba(143, 6, 6, 0.316) !important;
+    border-radius: 0% !important;
+    border-color: rgb(224, 9, 9);
+}
+.card-button:hover{
+    background-color: rgba(143, 6, 6, 0.746) !important;
+    border-color:rgb(81, 2, 2) !important;
 }
