@@ -10,15 +10,12 @@ function App() {
   return (
     <Container fluid>
       <Row>
-        <Navigation></Navigation>
+        <Navigation/>
       </Row>
       <Row>
-   <HomeScreen></HomeScreen>
- 
+        <HomeScreen/>
       </Row>
-
     </Container>
-   
   );
 }
 

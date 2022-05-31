@@ -67,7 +67,7 @@ export const HomeScreen = () => {
           </h1>
 
           <CardGroup className="fonts-style yo bottom-margin">
-            <Card className="zoom yo">
+            <Card fluid className="zoom yo">
               <Card.Img variant="top" src={MardiG} />
               <Card.Body>
                 <Card.Title className="font-regular">Tournament</Card.Title>
@@ -77,7 +77,7 @@ export const HomeScreen = () => {
                 <Button className="card-button">Sign-Up</Button>
               </Card.Footer>
             </Card>
-            <Card className="zoom yo">
+            <Card fluid className="zoom yo">
               <Card.Img variant="top" src={halloween} />
               <Card.Body>
                 <Card.Title className="font-regular">Tournament</Card.Title>
@@ -87,7 +87,7 @@ export const HomeScreen = () => {
                 <Button className="card-button">Sign-Up</Button>
               </Card.Footer>
             </Card>
-            <Card className="zoom yo">
+            <Card fluid className="zoom yo">
               <Card.Img variant="top" src={generalM} />
               <Card.Body>
                 <Card.Title className="font-regular">
@@ -106,10 +106,10 @@ export const HomeScreen = () => {
       <Row className="black spacer" />
       <Row className="black spacer" />
       <Row className="red_1 spacer" />
-      <Row className="white fonts-style font-regular fonts-style-dark extra-padding">
+      <Row className="white fonts-style font-regular fonts-style-dark extra-padding bottom-margin">
         
           <h1 className="bottom-margin font-large yo ">Reccomended Videos</h1>
-          <Container className="yo bottom-margin">
+          <Container className="yo">
           <iframe
             className="yT"
             frameborder="0"
@@ -127,6 +127,15 @@ export const HomeScreen = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             title="Openings"
             src="https://www.youtube.com/embed/Txvz97tzDfM?enablejsapi=1&amp;origin=http%3A%2F%2Flocalhost%3A3000&amp;widgetid=25"
+            id="widget26"
+          ></iframe>
+           <iframe
+            className="yT"
+            frameborder="0"
+            allowfullscreen="1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            title="Openings"
+            src="https://www.youtube.com/embed/SXrKRA_KZ5k"
             id="widget26"
           ></iframe>
       </Container>
