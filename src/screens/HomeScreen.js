@@ -96,7 +96,7 @@ export const HomeScreen = () => {
               <Card.Img variant="top" src={generalM} />
               <Card.Body>
                 <Card.Title className="font-regular">
-                  General Meeting
+                  General Meetings
                 </Card.Title>
                 <Card.Text className="font-small">This Event is Over</Card.Text>
               </Card.Body>
