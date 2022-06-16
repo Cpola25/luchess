@@ -23,17 +23,21 @@ export const Navigation = () => {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Container>
                 <Nav fill className="m-auto fonts-style">
-                  <Container className="container-float">
-                   <Button className="fonts-style nav-button">Home</Button>
-                   <Button className="fonts-style nav-button">Featured</Button>
-                   <Button className="fonts-style nav-button">Play</Button>
-                   <Button className="fonts-style nav-button">Scores</Button>
-                   <Button className="fonts-style login-button">Login</Button>
-                   </Container>
-                  
-                 
-                 
-                  
+                  <Button href="/" className="fonts-style nav-button">
+                    Home
+                  </Button>
+                  <Button href="/featured" className="fonts-style nav-button">
+                    Featured
+                  </Button>
+                  <Button href="/play" className="fonts-style nav-button">
+                    Play
+                  </Button>
+                  <Button href="/store" className="fonts-style nav-button">
+                    Store
+                  </Button>
+                  <Button href="/login" className="fonts-style login-button">
+                    Login
+                  </Button>
                 </Nav>
               </Container>
             </Navbar.Collapse>

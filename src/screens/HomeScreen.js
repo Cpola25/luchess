@@ -18,6 +18,12 @@ import halloween from "../LUCA_Images/halloween.jpg";
 import generalM from "../LUCA_Images/generalM.jpg";
 import MardiG from "../LUCA_Images/MardiG.jpg";
 import singular from "../LUCA_Images/singular.png";
+import branch from "../LUCA_Images/branch.png"; 
+import Bear from "../LUCA_Images/Bear.png";
+import DrFlo from "../LUCA_Images/DrFlo.png";
+import ltx from "../LUCA_Images/ltx.jpg";
+import CCC from "../LUCA_Images/CCC.png";
+
 import YouTube from "react-youtube";
 
 export const HomeScreen = () => {
@@ -43,11 +49,11 @@ export const HomeScreen = () => {
       <Row className="white spacer" />
       <Row className="white spacer" />
       <Row className="red_1 spacer" />
-
-      <Row className="black fo fonts-style font-regular">
-        <Container className="top-margin">
-          <Image fluid className="HS-Image" src={singular} />
-          <p className="extraText-padding">
+    
+      <Row className="black fonts-style font-regular">
+        <Container className="top-margin yo">
+          <Image className="HS-Image bottom-margin" src={singular} />
+          <p className="top-margin">
             Founded 2021 for all Lamar University
           </p>
           <p>
@@ -58,13 +64,12 @@ export const HomeScreen = () => {
             <strong className="strong">ALUMNI</strong>
           </p>
           <p>with a passion for the game of chess.</p>
-          <Button className="buto fonts-style font-regular">Join Us</Button>
         </Container>
         <hr className="red_3 hr"></hr>
         <Col>
-          <h1 className="fonts-style font-large top-margin bottom-margin yo">
+          <h3 className="fonts-style top-margin bottom-margin yo">
             Events
-          </h1>
+          </h3>
 
           <CardGroup className="fonts-style yo bottom-margin">
             <Card fluid className="zoom yo">
@@ -108,7 +113,7 @@ export const HomeScreen = () => {
       <Row className="red_1 spacer" />
       <Row className="white fonts-style font-regular fonts-style-dark extra-padding bottom-margin">
         
-          <h1 className="bottom-margin font-large yo ">Reccomended Videos</h1>
+          <h3 className="bottom-margin yo ">Reccomended Videos</h3>
           <Container className="yo">
           <iframe
             className="yT"
@@ -140,6 +145,7 @@ export const HomeScreen = () => {
           ></iframe>
       </Container>
       </Row>
+  
     </Container>
   );
 };
