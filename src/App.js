@@ -6,6 +6,7 @@ import { HomeScreen } from "./screens/HomeScreen";
 import { Play } from "./screens/Play";
 import { Featured } from "./screens/Featured";
 import { Login } from "./screens/login";
+import { Test } from "./screens/test";
 import { Bottom } from "./components/Bottom";
 import React from "react";
 import {
@@ -26,7 +27,7 @@ function App() {
             <Route path="/" element={<HomeScreen />} />
             <Route path="/featured" element={<Featured/>} />
             <Route path="/play" element={<Play/>} />
-            <Route path="/store" element={<HomeScreen />} />
+            <Route path="/store" element={<Test/>} />
             <Route path="/login" element={<Login/>} />
           </Routes>
         </Router>
