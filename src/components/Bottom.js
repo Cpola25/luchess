@@ -4,23 +4,26 @@ export const Bottom = () => {
   return (
     <Container className="black">
       <Row className="black">
-        <div className=" black center-contents">
-          <Button
+        <div className=" footer-div extra-padding">
+       
+          <a
             href="https://www.instagram.com/lu_chess_a/"
             target="_blank"
-            className="insta social-icons"
-          />
-          <Button
+            className=" social-icons insta"
+          ></a>
+          <a
             href="https://m.facebook.com/LUChessAssoc/photos/?ref=page_internal&_se_imp=0Va664qYbN03EkU5s"
             target="_blank"
-            className="facebook social-icons"
-          />
-           <Button
+            className=" social-icons facebook"
+          ></a>
+           <a
             href="https://github.com/Cpola25/luchess"
             target="_blank"
-            className="gitHub social-icons"
-          />
+            className=" social-icons gitHub"
+          ></a>
+       
         </div>
+        
       </Row>
     </Container>
   );

@@ -5,102 +5,10 @@
     width: auto !important;
 
 }
-
 .logo {
     max-width: 4% !important;
     margin-left: 2% !important;
 }
-
-/** Fonts */
-.fonts-style {
-    font-family: 'Nanum Gothic Coding', monospace !important;
-    letter-spacing: 6px !important;
-}
-
-.font-small {
-    font-size: 1vw !important;
-}
-
-.font-large {
-    font-size: 2vw !important;
-}
-
-.font-regular {
-    font-size: 1.5vw !important;
-}
-
-.yo {
-    max-width: 60% !important;
-    margin-left: 20% !important;
-}
-
-/** HomeScreen */
-
-
-.carousel-pics {
-    width: 100% !important;
-}
-
-.event {
-    max-width: 25% !important;
-   
-}
-
-.yT {
-    margin-right: 3% !important;
-    height: 100% !important;
-    width: 30% !important;
-}
-
-.zoom {
-    overflow: hidden !important;
-    margin: 0 0 !important;
-}
-
-.zoom img {
-    width: 95% !important;
-    transition: 0.5s all ease-in-out !important;
-}
-
-.zoom:hover img {
-    transform: scale(1.5) !important;
-}
-
-/**Featured*/
-
-
-/** WebColors */
-.black {
-    background-color: rgb(0, 0, 0) !important;
-    color: white !important
-}
-
-.white {
-    background-color: rgb(228, 227, 227) !important;
-    color: black !important;
-}
-
-.red_1 {
-    background-color: rgba(161, 20, 27, 0.975) !important;
-    color: white !important
-}
-
-.red_2 {
-    background-color: rgb(117, 28, 28) !important;
-    color: white !important
-}
-
-.red_3 {
-    background-color: rgb(253, 0, 0);
-    color: white !important
-}
-
-.grey {
-    background-color: rgb(22, 22, 22) !important;
-    color: rgb(255, 255, 255);
-}
-
-/**Buttons*/
 
 .nav-button {
     background-color: transparent !important;
@@ -145,162 +53,85 @@
     border-color: rgb(230, 109, 109) !important;
 }
 
-
-.card-button {
-    width: 100% !important;
-    background-color: rgba(143, 6, 6, 0.316) !important;
-    border-radius: 0% !important;
-    border-color: rgb(224, 9, 9);
+/** WebColors */
+.black {
+    background-color: rgb(0, 0, 0) !important;
+    color: white !important
 }
 
-.card-button:hover {
-    background-color: rgba(143, 6, 6, 0.746) !important;
-    border-color: rgb(81, 2, 2) !important;
+.white {
+    background-color: rgb(228, 227, 227) !important;
+    color: black !important;
 }
 
-.social-icons {
-    background-repeat: no-repeat !important;
-    background-color: transparent;
-    border: none !important;
-    height: 40px;
-    width: 50px;
-    background-size: 60% 60% !important;
-    margin-right: 1% !important;
-    padding: 0px 0px 0px 0px !important;
-
+.red_1 {
+    background-color: rgba(161, 20, 27, 0.975) !important;
+    color: white !important
 }
 
-.social-icons:hover {
-
-    background-color: transparent;
-    border: none !important;
-
+.red_2 {
+    background-color: rgb(117, 28, 28) !important;
+    color: white !important
 }
 
-.social-icons:active {
-    background-color: transparent;
-    border: none !important;
+.red_3 {
+    background-color: rgb(253, 0, 0);
+    color: white !important
 }
 
-.insta {
-    background-image: url(../LUCA_Images/icons/insta.png) !important;
-    margin-left: 45% !important;
-    margin-top: 1% !important;
+.grey {
+    background-color: rgb(22, 22, 22) !important;
+    color: rgb(255, 255, 255);
 }
 
-.facebook {
-    background-image: url(../LUCA_Images/icons/FB.png) !important;
-    margin-top: 1% !important;
+/** Fonts */
+.fonts-style {
+    font-family: 'Nanum Gothic Coding', monospace !important;
+    letter-spacing: 6px !important;
 }
 
-.gitHub {
-    background-image: url(../LUCA_Images/icons/GitHub.png) !important;
-    margin-top: 1% !important;
+.font-small {
+    font-size: 1vw !important;
 }
 
-.center-contents {
-    align-self: center !important;
-
-}
-.login {
-    border-color: black !important;
-    height: fit-content !important;
-    padding: 15% 7% 5% 7% !important;
+.font-large {
+    font-size: 2vw !important;
 }
 
-.login-image {
-    width: 70% !important;
-    margin-left: 16% !important;
-    margin-bottom: 10% !important;
+.font-regular {
+    font-size: 1.5vw !important;
 }
 
-
-/**Extra Space N Such */
-
-.container-float {
-    margin-left: 20%;
-    margin-right: 0px !important;
-    padding-right: 0px !important;
+.yo {
+    max-width: 60% !important;
+    margin-left: 20% !important;
 }
 
-.bottom-margin {
-    margin-bottom: 3% !important;
-}
+/** HomeScreen */
 
-.top-margin {
-    margin-top: 3% !important;
-}
-
-.extra-padding {
-    padding: 2% 0% 2% 0% !important;
-}
-
-.extraText-padding {
-    margin-top: 7% !important;
-}
-
-
-.spacer {
-    height: 1% !important;
-}
-
-.picture {
-    width: 100% !important;
-    
-
-}
-
-.news-pic {
-    width: 40% !important;
-    background-color: rgb(255, 255, 255) !important;
-    float: left !important;
-    margin: 0 6% 4% 0 !important;
-}
-
-
-.red-text {
-    color: rgb(207, 4, 4) !important;
-    font-weight: bolder;
-}
-
-.carousel-indicators [data-bs-target] {
-    background-color: rgba(107, 21, 4, 0);
-}
-
-.tab-text {
-    text-indent: 10% !important;
-
-}
-
-.sponser-link {
-    width: 27% !important;
+.yT {
+    margin-right: 3% !important;
     height: 100% !important;
-    margin-right: 7% !important;
+    width: 30% !important;
+}
+
+.zoom {
+    overflow: hidden !important;
+    margin: 0 0 !important;
 
 }
 
-.sponser-link:hover {
-    box-shadow: rgb(48, 1, 1) !important;
-    -webkit-filter: brightness(130%)
+.zoom img {
+    width: 90% !important;
+    transition: 0.5s all ease-in-out !important;
+    
 }
 
-.clubs-picture {
-    width: 20% !important;
-    border-radius: 25% !important;
-
+.zoom:hover img {
+    transform: scale(1.1) !important;
+    border-radius: 0% !important;
+    
 }
-
-.to-left {
-    float: left !important;
-    margin-right: 10% !important;
-}
-
-.curved-container {
-    border-radius: 10% !important;
-    width: 35% !important;
-    height: 10% !important;
-}
-
 .cool {
     background-color: rgb(0, 0, 0) !important;
     background-image: url("../LUCA_Images/Gallery3.jpg") !important;
@@ -316,22 +147,97 @@
 
 }
 
-.HP-img {
-    width: 13% !important;
-    margin: auto !important;
+/**Featured*/
+
+.red-text {
+    color: rgb(207, 4, 4) !important;
+    margin-bottom: 5% !important;
+    font-weight: bolder;
 }
 
-.b {
-    width: 20%;
-    margin: auto;
+/**Buttons*/
+
+.social-icons {
+    background-repeat: no-repeat !important;
+    background-color: transparent;
+    border: none !important;
+    height: 8% !important;
+    width: 20% !important;
+    padding: 1% !important; 
+    float: left !important;
+}
+
+.social-icons:hover {
+    border: none !important;
+   
+}
+
+.social-icons:active {
+    background-color: transparent;
+    border-color: black !important;
+}
+
+.insta {
+    background-image: url(../LUCA_Images/icons/insta.png) !important;  
+    background-size: 100% 100%;
+}
+
+.facebook {
+    background-image: url(../LUCA_Images/icons/FB.png) !important;
+    background-size: 100% 100%;
+}
+
+.gitHub {
+    background-image: url(../LUCA_Images/icons/GitHub.png) !important;
+    background-size: 100% 100%;
+}
+
+
+.login {
+    border-color: black !important;
+    height: fit-content !important;
+    padding: 15% 7% 5% 7% !important;
+}
+
+.login-image {
+    width: 70% !important;
+    margin-left: 16% !important;
+    margin-bottom: 10% !important;
+}
+
+
+/**Extra Space N Such */
+
+
+.bottom-margin {
+    margin-bottom: 3% !important;
+}
+
+.top-margin {
+    margin-top: 3% !important;
+}
+
+.extra-padding {
+    padding: 2% 0% 2% 0% !important;
+}
+
+.spacer {
+    height: 1% !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: rgba(107, 21, 4, 0);
+}
+
+.tab-text {
+    text-indent: 10% !important;
 
 }
 
-.b1 {
-    width: 20%;
-    margin: auto !important;
+.to-left {
+    float: left !important;
+    margin-right: 10% !important;
 }
-
 .row>* {
     flex-shrink: 0;
     width: 100%;
@@ -339,18 +245,22 @@
 }
 
 .card-background {
-    background-color: rgba(0, 0, 0, 0.637) !important;
+    background-color: rgba(0, 0, 0, 0.801) !important;
     padding: 40px !important;
-    border-style: groove !important;
-    border-width: 5px !important;
-    box-shadow: 20px 20px 50px 15px grey;
-
+    margin-bottom: 7% !important;
+    border-style: double;
+    border-left: transparent;
+    border-right: transparent;
+    max-width: 90% !important;
+    margin-left: 5% !important;
+    box-shadow: 5px 5px 20px 10px rgba(188, 188, 188, 0.645);
 }
 
 .news-background {
     background-image: url("../LUCA_Images/chekered.png");
     background-size: 100% 100% !important;
     background-repeat: no-repeat !important;
+  
    
 }
 
@@ -366,35 +276,19 @@
     background-image: url("../LUCA_Images/chekered.png");
 
     /* Full height */
-    height: 25%;
+    height: 23%;
     
     padding-top: 0%;
     padding-bottom: 3% !important;
-
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-.parallax2 {
-    /* The image used */
-    background-image: url("../LUCA_Images/chekered.png");
-
-    /* Full height */
-    height: 3%;
-    
-    padding-top: 0%;
-    padding-bottom: 3% !important;
-
+    margin-top: 1% !important;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
 .event-back {
     background-color: rgba(0, 0, 0, 0.818) !important;
 }
@@ -418,8 +312,6 @@
 margin-left: 3% !important;
 
 }
-
-
 .event-container{
  position: relative;
  width: 23%;
@@ -431,7 +323,7 @@ margin-left: 3% !important;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    box-shadow: 2px 2px 10px 2px rgba(73, 1, 1, 0.226);
+    box-shadow: 2px 3px 20px 1px rgba(34, 34, 34, 0.854);
 }
 .event-button{
     transition: .5s ease;
@@ -487,7 +379,8 @@ margin-left: 3% !important;
    width: 100%;
     border-radius:50% !important; 
     margin-bottom: 5% !important;
-    box-shadow: 5px 5px 15px 5px grey;
+    box-shadow: 4px 4px 15px 0px rgba(32, 32, 32, 0.877);
+    
 }
 
 .to-left{
@@ -510,11 +403,7 @@ margin-left: 3% !important;
     font-size: 3.5vh;
     font-weight: 700;
 }
-.heading{
-    width:50% !important; 
-    margin-left: 25% !important;
- 
-}
+
 .motto-design{
     background-color: rgba(0, 0, 0, 0.863);
     padding: 3% 11% 2% 11% !important;
@@ -523,4 +412,36 @@ margin-left: 3% !important;
     margin-left: 5% !important;
     box-shadow: 20px 20px 50px 10px rgba(165, 165, 165, 0.667);
   
+}
+
+.group-div{
+    width: 30%; 
+
+    margin-left: 13%;
+    border-radius: 10% !important;
+    box-shadow: 5px 5px 30px 5px rgba(41, 41, 41, 0.263);
+}
+.groups-pic{
+    width: 100%;
+    border-radius: 20% !important;
+    padding: 6% !important;
+}
+.news-text{
+width: 40% !important;
+float: left;
+letter-spacing: 0.2ch;
+}
+.news-pic {
+    width: 30% !important;
+    background-color: rgb(255, 255, 255) !important;
+    float: left !important;
+    margin-right: 5% !important;
+    margin-left: 14% !important;
+}
+
+.footer-div{
+ 
+  width: 27% !important;
+
+  margin-left: 41.5% !important;
 }
