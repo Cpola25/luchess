@@ -2,10 +2,11 @@ import { Button, Container, Row } from "react-bootstrap";
 
 export const Bottom = () => {
   return (
-    <Container className="black">
-      <Row className="black">
-        <div className=" footer-div extra-padding">
-       
+    <Container className="black extra-padding">
+     
+      <Row fluid className="black extra-padding footer-sizing">
+        
+        <hr/>
           <a
             href="https://www.instagram.com/lu_chess_a/"
             target="_blank"
@@ -21,9 +22,8 @@ export const Bottom = () => {
             target="_blank"
             className=" social-icons gitHub"
           ></a>
+
        
-        </div>
-        
       </Row>
     </Container>
   );

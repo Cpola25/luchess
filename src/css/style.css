@@ -5,6 +5,7 @@
     width: auto !important;
 
 }
+
 .logo {
     max-width: 4% !important;
     margin-left: 2% !important;
@@ -124,24 +125,25 @@
 .zoom img {
     width: 90% !important;
     transition: 0.5s all ease-in-out !important;
-    
+
 }
 
 .zoom:hover img {
     transform: scale(1.1) !important;
     border-radius: 0% !important;
-    
+
 }
+
 .cool {
     background-color: rgb(0, 0, 0) !important;
-    background-image: url("../LUCA_Images/Gallery3.jpg") !important;
+    background-image: url("../LUCA_Images/Banners/Gallery3.jpg") !important;
     background-size: 100% 100% !important;
     background-repeat: no-repeat !important;
     font-family: 'Kaisei Opti', serif;
-    font-weight:bolder !important; 
+    font-weight: bolder !important;
     text-align: center !important;
     background-position: center !important;
-    padding: 20% 0% 23% 0% !important;
+    padding: 18% 0% 20% 0% !important;
     margin-top: 5% !important;
     margin-bottom: 2% !important;
 
@@ -157,19 +159,28 @@
 
 /**Buttons*/
 
+/** Bottom */
+.footer-sizing {
+    height: 6rem !important;
+    max-width: 100% !important;
+
+}
+
 .social-icons {
     background-repeat: no-repeat !important;
     background-color: transparent;
     border: none !important;
-    height: 8% !important;
-    width: 20% !important;
-    padding: 1% !important; 
+    height: 30px !important;
+    width: 2.3% !important;
     float: left !important;
+    margin-right: 3% !important;
+    margin-top: 1% !important;
+
 }
 
 .social-icons:hover {
     border: none !important;
-   
+
 }
 
 .social-icons:active {
@@ -178,8 +189,10 @@
 }
 
 .insta {
-    background-image: url(../LUCA_Images/icons/insta.png) !important;  
+    background-image: url(../LUCA_Images/icons/insta.png) !important;
     background-size: 100% 100%;
+    margin-left: 43% !important;
+
 }
 
 .facebook {
@@ -238,6 +251,7 @@
     float: left !important;
     margin-right: 10% !important;
 }
+
 .row>* {
     flex-shrink: 0;
     width: 100%;
@@ -245,23 +259,22 @@
 }
 
 .card-background {
-    background-color: rgba(0, 0, 0, 0.801) !important;
-    padding: 40px !important;
-    margin-bottom: 7% !important;
+    background-color: rgba(0, 0, 0, 0.663) !important;
+    padding: 3% !important;
+    margin-bottom: 3% !important;
     border-style: double;
-    border-left: transparent;
-    border-right: transparent;
-    max-width: 90% !important;
-    margin-left: 5% !important;
-    box-shadow: 5px 5px 20px 10px rgba(188, 188, 188, 0.645);
+    border-color: rgba(255, 255, 255, 0.372) !important;
+    max-width: 96% !important;
+    margin-left: 2% !important;
+
 }
 
 .news-background {
-    background-image: url("../LUCA_Images/chekered.png");
+    background-image: url("../LUCA_Images/Graphics/chekered.png");
     background-size: 100% 100% !important;
     background-repeat: no-repeat !important;
-  
-   
+
+
 }
 
 .news-div {
@@ -273,13 +286,13 @@
 
 .parallax {
     /* The image used */
-    background-image: url("../LUCA_Images/chekered.png");
+    background-image: url("../LUCA_Images/Graphics/chekered.png");
 
     /* Full height */
     height: 23%;
-    
+
     padding-top: 0%;
-    padding-bottom: 3% !important;
+    padding-bottom: 0% !important;
     margin-top: 1% !important;
 
     /* Create the parallax scrolling effect */
@@ -289,34 +302,41 @@
     background-size: 100%;
 }
 
+
+
 .event-back {
     background-color: rgba(0, 0, 0, 0.818) !important;
 }
 
 
-.read-text{
+.read-text {
     font-family: 'Nanum Gothic Coding', monospace !important;
     letter-spacing: 0.2ch !important;
-    border-right: rgba(255, 255, 255, 0)!important;
+    border-right: rgba(255, 255, 255, 0) !important;
     border-left: rgba(255, 255, 255, 0) !important;
     margin-top: 3% !important;
     color: rgb(255, 255, 255);
-   
-   
+
+
 }
 
-.text-center{
+.text-center {
     text-align: center !important;
 }
-.event1{
-margin-left: 3% !important;
+
+.event1 {
+    margin-left: 3% !important;
 
 }
-.event-container{
- position: relative;
- width: 23%;
+
+.event-container {
+    position: relative;
+    width: 23%;
+    
+
 }
-.event-pic{
+
+.event-pic {
     opacity: 1;
     display: block;
     width: 100%;
@@ -324,8 +344,10 @@ margin-left: 3% !important;
     transition: .5s ease;
     backface-visibility: hidden;
     box-shadow: 2px 3px 20px 1px rgba(34, 34, 34, 0.854);
+    border-radius: 10% !important;
 }
-.event-button{
+
+.event-button {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -336,17 +358,21 @@ margin-left: 3% !important;
     text-align: center;
     text-decoration: none !important;
     width: 65%;
-   
-    
+
+
+
 }
-.event-container:hover .event-pic{
+
+.event-container:hover .event-pic {
     opacity: 0.3;
 }
-.event-container:hover .event-button{
+
+.event-container:hover .event-button {
     opacity: 2.5;
-   
+
 }
-.event-text{
+
+.event-text {
     background-color: #821203d7;
     color: white;
     font-size: 65%;
@@ -356,81 +382,92 @@ margin-left: 3% !important;
     letter-spacing: 0.5ch !important;
 }
 
-.event-text:active{
+.event-text:active {
     padding: 10px 26px;
-    color: rgb(191, 8, 8) !important; 
+    color: rgb(191, 8, 8) !important;
 
 }
-.team-div{
+
+.team-div {
     height: 30%;
     padding: 7% !important;
     padding-top: 4% !important;
     text-align: center;
 }
-.team-div1{
+
+.team-div1 {
     width: 25%;
-    height: 30% !important; 
+    height: 30% !important;
     padding: 2% !important;
     padding-top: 0% !important;
-  margin-right: 8% !important;
-  
-}
-.team-person{
-   width: 100%;
-    border-radius:50% !important; 
-    margin-bottom: 5% !important;
-    box-shadow: 4px 4px 15px 0px rgba(32, 32, 32, 0.877);
-    
+    margin-right: 8% !important;
+
 }
 
-.to-left{
- float: left;
+.team-person {
+    width: 100%;
+    border-radius: 50% !important;
+    margin-bottom: 5% !important;
+    box-shadow: 0.3em 0.3em 0.4em 0em rgba(32, 32, 32, 0.758);
+
 }
-.to-right{
+
+.to-left {
+    float: left;
+}
+
+.to-right {
     float: right;
 }
-.team-name{
-    font-weight:800 !important;
+
+.team-name {
+    font-weight: 800 !important;
     font-size: 2vh;
     letter-spacing: 0ch;
 }
-.team-description{
+
+.team-description {
     font-size: 1.5vh;
     letter-spacing: 0.2ch;
 }
-.team-title{
+
+.team-title {
     margin-bottom: 6.5% !important;
     font-size: 3.5vh;
     font-weight: 700;
 }
 
-.motto-design{
+.motto-design {
     background-color: rgba(0, 0, 0, 0.863);
     padding: 3% 11% 2% 11% !important;
-    margin-top: 4% !important; 
+    margin-top: 2% !important;
+    margin-bottom: 3% !important;
     width: 90% !important;
     margin-left: 5% !important;
-    box-shadow: 20px 20px 50px 10px rgba(165, 165, 165, 0.667);
-  
+    box-shadow: 10px 10px 40px 5px rgba(165, 165, 165, 0.667);
+
 }
 
-.group-div{
-    width: 30%; 
-
+.group-div {
+    width: 30%;
     margin-left: 13%;
     border-radius: 10% !important;
     box-shadow: 5px 5px 30px 5px rgba(41, 41, 41, 0.263);
 }
-.groups-pic{
-    width: 100%;
+
+.groups-pic {
+    width: 80%;
     border-radius: 20% !important;
     padding: 6% !important;
+    float: left !important;
 }
-.news-text{
-width: 40% !important;
-float: left;
-letter-spacing: 0.2ch;
+
+.news-text {
+    width: 40% !important;
+    float: left;
+    letter-spacing: 0.2ch;
 }
+
 .news-pic {
     width: 30% !important;
     background-color: rgb(255, 255, 255) !important;
@@ -439,9 +476,119 @@ letter-spacing: 0.2ch;
     margin-left: 14% !important;
 }
 
-.footer-div{
- 
-  width: 27% !important;
 
-  margin-left: 41.5% !important;
+.gallery-photos {
+    width: 10% !important;
+
 }
+
+.merch-pic {
+    width: 23% !important;
+    margin-right: 1% !important;
+}
+
+.shop-div {
+    width: 90% !important;
+    margin-left: 5% !important;
+    padding: 5% !important;
+
+
+}
+
+.nav-link {
+    color: rgb(182, 5, 5) !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5ch !important;
+}
+
+.Banner1 {
+    background-image: url("../LUCA_Images/Banners/Banner.png");
+    background-size: 100% 100% !important;
+}
+
+/** Contact Component */
+
+.contact-message {
+    width: 90% !important;
+    padding-bottom: 15% !important;
+}
+
+.contact-name {
+    width: 40% !important;
+    float: left !important;
+    margin-right: 3% !important;
+}
+
+.contact-email {
+    width: 47% !important;
+    float: left !important;
+}
+
+.contact-subject {
+    width: 90% !important;
+}
+
+.contact-container {
+    margin-left: 9% !important;
+    padding: 5% !important;
+    padding-top: 2% !important;
+}
+
+input,
+select,
+textarea {
+    border: none !important;
+    color: white !important;
+    background-color: rgba(55, 55, 55, 0.426) !important;
+    margin: 0;
+    font-family: 'Nanum Gothic Coding', monospace !important;
+    font-size: inherit;
+    line-height: 2ch !important;
+    width: 40% !important;
+    margin-bottom: 2% !important;
+    padding: 2% !important;
+
+}
+
+.contact-sendButton {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: rgb(213, 213, 213) !important;
+    border-style: double !important;
+    border-width: 1px !important;
+    width: 30% !important;
+    padding: 0.9% !important;
+    margin-left: 30% !important;
+
+
+}
+
+.contact-sendButton:hover {
+    background-color: rgba(101, 101, 101, 0.123) !important;
+    border: rgb(94, 94, 94) !important;
+    border-style: double !important;
+    border-width: 1px !important;
+
+
+}
+
+.contact-heading {
+    margin-left: 3.5% !important;
+}
+
+.home-heading {
+    font-weight: 900 !important;
+    font-size: 5vh !important;
+    width: 80%;
+    margin-left: 10% !important;
+    padding: 1% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    font-family: 'Kaisei Opti', serif;
+    color: rgb(212, 206, 191) !important;
+    background-color: rgba(0, 0, 0, 0.056) !important;
+}
+
+.fade-in {
+    transition: opacity 1s ease;
+}
+/**       */

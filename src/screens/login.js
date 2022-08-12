@@ -1,6 +1,6 @@
 import { Button, Col, Container, Form, Image, Row } from "react-bootstrap";
-import cardinal from "../LUCA_Images/cardinal.png";
-import fall from "../LUCA_Images/fall.png";
+import cardinal from "../LUCA_Images/Graphics/cardinal.png";
+import fall from "../LUCA_Images/Graphics/fall.png";
 
 export const Login = () => {
   return (

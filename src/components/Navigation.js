@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Nav, Navbar, Row, Button } from "react-bootstrap";
 import "../css/style.css";
 import { Image } from "react-bootstrap";
-import Logo from "../LUCA_Images/Logo.png";
+import Logo from "../LUCA_Images/Graphics/Logo.png";
 
 export const Navigation = () => {
   return (
