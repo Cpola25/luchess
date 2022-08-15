@@ -30,16 +30,18 @@ export const Navigation = () => {
                   <Button href="/featured" className="fonts-style nav-button">
                     Featured
                   </Button>
-                  <Button href="/" className="fonts-style nav-button">
+                  <Button href="/tournament" className="fonts-style nav-button">
                     Tournament
                   </Button>
                   <Button href="/play" className="fonts-style nav-button">
                     Play
                   </Button>
 
+            
                   <Button href="/login" className="fonts-style login-button">
                     Login
                   </Button>
+                 
                 </Nav>
               </Container>
             </Navbar.Collapse>

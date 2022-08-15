@@ -1,4 +1,12 @@
-import { Button, Carousel, Col, Container, Image, Row } from "react-bootstrap";
+import {
+  Button,
+  CardGroup,
+  Carousel,
+  Col,
+  Container,
+  Image,
+  Row,
+} from "react-bootstrap";
 import bcc from "../LUCA_Images/Event_Photos/bcc.png";
 import jaimik from "../LUCA_Images/Event_Photos/jaimik.png";
 import ltx from "../LUCA_Images/Event_Photos/ltx.jpg";
@@ -8,20 +16,25 @@ import halloween from "../LUCA_Images/Event_Posters/halloween.jpg";
 import generalM from "../LUCA_Images/Event_Posters/generalM.jpg";
 import MardiG from "../LUCA_Images/Event_Posters/MardiG.jpg";
 import christmas from "../LUCA_Images/Event_Posters/christmas.jpg";
-import Event1 from "../LUCA_Images/Event_Photos/Event1.jpg";
-import Event2 from "../LUCA_Images/Event_Photos/Event2.jpg";
-import Event3 from "../LUCA_Images/Event_Photos/Event3.jpg";
-import Event4 from "../LUCA_Images/Event_Photos/Event4.jpg";
-import Event5 from "../LUCA_Images/Event_Photos/Event5.jpg";
-import Event6 from "../LUCA_Images/Event_Photos/Event6.jpg";
 import { Shop } from "../components/shop";
 
 export const Featured = () => {
   return (
     <Container className="black fonts-style">
-      <Row className="black spacer extra-padding "></Row>
-      <Row className="fonts-style grey parallax extra-padding ">
-        <Carousel className=" card-background bottom-margin ">
+      <Row className="black spacer  extra-padding "></Row>
+      <Row className="featured-Heading"></Row>
+
+      <Row className="black spacer" />
+      <Row className="white extra-padding">
+        <div className="shop-div">
+          <Shop />
+        </div>
+        <hr />
+      </Row>
+
+      <Row className="news-background">
+        {" "}
+        <Carousel className=" card-background">
           <Carousel.Item>
             <div className="news-div ">
               <img className="news-pic" src={ltx} alt="First slide" />
@@ -72,28 +85,14 @@ export const Featured = () => {
               </div>
             </div>
           </Carousel.Item>
-          <Carousel.Item>
-            <div className="news-div ">
-              <img className="news-pic" src={Shirt} alt="First slide" />
-              <div className="news-text">
-                <h3 className="red-text font-large">LUCA Shirt Design</h3>
-                <p className="font-small ">
-                  Official design for LUCA member shirts has been decided! Our
-                  team is focusing on fundrasing initiatives begining this year
-                  in order to make these shirts available for purchase. Follow
-                  our socials or check this website for updates on our merch!
-                </p>
-              </div>
-            </div>
-          </Carousel.Item>
         </Carousel>
       </Row>
-      <Row className="black spacer" />
-      <Row className="white ">
-        <h3 className="text-center team-title top-margin">Events</h3>
+      <Row className="spacer black extra-padding" />
       
-      
-        <div className="event-container event1 ">
+     
+      <Row className="event-back white extra-padding ">
+        <h1 className="text-center bottom-margin">Events</h1>
+        <div className="event-container  event1 ">
           <img src={MardiG} alt="Event" className="event-pic" />
           <a
             className="event-button"
@@ -101,7 +100,12 @@ export const Featured = () => {
           >
             <div className="event-text">Register</div>
           </a>
-          
+          <p className="event-caption">
+            Type: Tournament <br/>
+            Date: Event Over <br />
+            Time: N/A <br />
+            Location: N/A
+          </p>
         </div>
         <div className="event-container">
           <img src={generalM} alt="Event" className="event-pic" />
@@ -111,6 +115,12 @@ export const Featured = () => {
           >
             <div className="event-text">Register</div>
           </a>
+          <p className="event-caption">
+            Type: Meeting <br/>
+            Date: Event Over <br />
+            Time: N/A <br />
+            Location: N/A
+          </p>
         </div>
         <div className="event-container">
           <img src={halloween} alt="Event" className="event-pic" />
@@ -120,6 +130,12 @@ export const Featured = () => {
           >
             <div className="event-text">Register</div>
           </a>
+          <p className="event-caption ">
+            Type: Tournament<br/>
+            Date: Event Over <br />
+            Time: N/A <br />
+            Location: N/A
+          </p>
         </div>
         <div className="event-container">
           <img src={christmas} alt="Event" className="event-pic" />
@@ -129,45 +145,23 @@ export const Featured = () => {
           >
             <div className="event-text">Register</div>
           </a>
-        </div>
-       
-      </Row>
-
-      <Row className="white spacer extra-padding">
-        <div className="white spacer extra-padding"></div>
-      </Row>
-
-      <Row className="white extra-padding">
-        <h3 className="team-title text-center">Other Groups</h3>
-        <div className="group-div">
-          <h3 className="team-name text-center">The Beaumont Chess Club</h3>
-          <p className="team-description text-center">
-            Thursdays 3-5 pm <br /> 5657 Eastex Fwy, Beaumont, TX 77706
+          <p className="event-caption">
+          Type: Tournament<br/>
+            Date: Event Over <br />
+            Time: N/A <br />
+            Location: N/A
           </p>
-          <Button className="facebook social-icons"></Button>
-        </div>
-
-        <div className="group-div">
-          <h3 className="team-name text-center">Lumberton Chess Club</h3>
-          <p className="team-description text-center">
-            Mondays <br /> 133 #C, N Lhs Dr, Lumberton, TX 77657
-          </p>
-          <Button className="insta social-icons"></Button>
         </div>
       </Row>
 
-
-      <Row className="grey extra-padding">
-        <div className="shop-div">
-          <Shop />
-        </div>
-      </Row>
-
-     
       <Row className="grey extra-padding spacer" />
       <Row className="black fonts-style font-regular fonts-style-dark extra-padding ">
-        <h3 className="bottom-margin yo ">Reccomended Videos</h3>
-        <Container className="yo">
+        <h1 className=" tab-text  ">Reasources</h1>
+        <hr />
+    
+        
+        <Container className="yo top-margin">
+         
           <iframe
             className="yT"
             frameborder="0"

@@ -20,21 +20,22 @@ import Sai from "../LUCA_Images/Headshots/Sai.jpg";
 import Elijah from "../LUCA_Images/Headshots/Elijah.jpg";
 import Connor from "../LUCA_Images/Headshots/Connor.jpg";
 import Alfredo from "../LUCA_Images/Headshots/Alfredo.jpeg";
+import halloween from "../LUCA_Images/Event_Posters/halloween.jpg";
+import generalM from "../LUCA_Images/Event_Posters/generalM.jpg";
+import MardiG from "../LUCA_Images/Event_Posters/MardiG.jpg";
+import christmas from "../LUCA_Images/Event_Posters/christmas.jpg";
 import { Shop } from "../components/shop";
 import { ContactUs } from "../components/Contact";
 
 export const HomeScreen = () => {
- 
   return (
     <Container className="fonts-style black ">
-      <Row className=" cool">
-        <div className="">
-          <h1 className="home-heading">LEARN, PLAY, EXCEL</h1>
-        </div>
+      <Row className="cool">
+        <div className="HS-Button-div"></div>
       </Row>
-      <Row className="black">
-        <div className=" read-text parallax">
-          
+      <Row className="grey">
+        <hr />
+        <div className=" read-text">
           <p className="font-regular text-center motto-design fade-in">
             Founded in 2021 for all Lamar University Students, Staff, and Alumni
             with a passion for the game of chess.
@@ -42,12 +43,12 @@ export const HomeScreen = () => {
         </div>
       </Row>
 
-      <Row className="black spacer "></Row>
+     
       <Row className="white">
         <Carousel className="bottom-margin">
           <Carousel.Item>
             <div className="team-div font-style ">
-              <h3 className="team-title">Sponsors</h3>
+              <h3 className="bottom-margin">Sponsors</h3>
               <div className=" zoom team-div1 to-left ">
                 <Image className="team-person" src={DrFlo} />
                 <h2 className=" team-name">Dr.Flores</h2>
@@ -58,16 +59,12 @@ export const HomeScreen = () => {
               <div className="team-div1 to-left zoom">
                 <Image className="team-person" src={Bear} />
                 <h2 className=" team-name">Mr.Hebert(Bear)</h2>
-                <p className="team-description">
-                  Valued LUCA Sponser
-                </p>
+                <p className="team-description">Valued LUCA Sponser</p>
               </div>
               <div className="team-div1 to-right zoom">
                 <Image className="team-person" src={CCC} />
                 <h2 className=" team-name ">The Childrens Chess Club</h2>
-                <p className="team-description">
-                  Valued LUCA Sponsor
-                </p>
+                <p className="team-description">Valued LUCA Sponsor</p>
               </div>
             </div>
           </Carousel.Item>
@@ -117,7 +114,7 @@ export const HomeScreen = () => {
                 <h2 className=" team-name">Lizbeth T.</h2>
                 <p className="team-description">
                   Tech <br />
-                  Front/Back End Web Dev.
+                   Web Developer
                 </p>
               </div>
               <div className="team-div1 to-right zoom">
@@ -132,8 +129,10 @@ export const HomeScreen = () => {
           </Carousel.Item>
         </Carousel>
       </Row>
+<Row className="black spacer" />
 
-      <Row className="black">
+
+      <Row className="black top-margin">
         <ContactUs />
       </Row>
     </Container>

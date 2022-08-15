@@ -6,6 +6,7 @@ import { HomeScreen } from "./screens/HomeScreen";
 import { Play } from "./screens/Play";
 import { Featured } from "./screens/Featured";
 import { Login } from "./screens/login";
+import { DisabledP } from "./screens/Disabled-Page";
 import { Bottom } from "./components/Bottom";
 import React from "react";
 import {
@@ -25,8 +26,8 @@ function App() {
           <Routes>
             <Route path="/" element={<HomeScreen />} />
             <Route path="/featured" element={<Featured/>} />
-            <Route path="/play" element={<Play/>} />
-            <Route path="/store" element={<Play/>} />
+            <Route path="/play" element={<DisabledP/>} />
+            <Route path="/tournament" element={<DisabledP/>} />
             <Route path="/login" element={<Login/>} />
           </Routes>
         </Router>
