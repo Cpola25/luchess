@@ -4,7 +4,7 @@ import { Container, Row, Button } from "react-bootstrap";
 import { Navigation } from "./components/Navigation";
 import { HomeScreen } from "./screens/HomeScreen";
 import { Play } from "./screens/Play";
-import { Featured } from "./screens/Featured";
+import Featured from "./screens/Featured.js"
 import { Login } from "./screens/login";
 import { DisabledP } from "./screens/Disabled-Page";
 import { Bottom } from "./components/Bottom";

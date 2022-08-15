@@ -18,7 +18,7 @@ import MardiG from "../LUCA_Images/Event_Posters/MardiG.jpg";
 import christmas from "../LUCA_Images/Event_Posters/christmas.jpg";
 import { Shop } from "../components/shop";
 
-export const Featured = () => {
+ const Featured = () => {
   return (
     <Container className="black fonts-style">
       <Row className="black spacer  extra-padding "></Row>
@@ -197,3 +197,4 @@ export const Featured = () => {
     </Container>
   );
 };
+export default Featured; 
