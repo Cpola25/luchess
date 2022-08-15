@@ -12,7 +12,6 @@ import React from "react";
 import {
   Route,
   BrowserRouter as Router,
-  Switch,
   Routes,
 } from "react-router-dom";
 function App() {
