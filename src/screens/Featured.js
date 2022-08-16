@@ -7,10 +7,8 @@ import {
   Image,
   Row,
 } from "react-bootstrap";
-import bcc from "../LUCA_Images/Event_Photos/bcc.png";
 import jaimik from "../LUCA_Images/Event_Photos/jaimik.png";
 import ltx from "../LUCA_Images/Event_Photos/ltx.jpg";
-import Shirt from "../LUCA_Images/Merch/Shirt.png";
 import Logo from "../LUCA_Images/Graphics/Logo.png";
 import halloween from "../LUCA_Images/Event_Posters/halloween.jpg";
 import generalM from "../LUCA_Images/Event_Posters/generalM.jpg";
