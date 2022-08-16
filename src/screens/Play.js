@@ -1,5 +1,5 @@
 import { Container, Row, Table } from "react-bootstrap";
-
+import React from "react";
 export const Play = () => {
   return (
     <Container className="black">

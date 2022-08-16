@@ -1,7 +1,7 @@
 import { Button, Col, Container, Form, Image, Row } from "react-bootstrap";
 import cardinal from "../LUCA_Images/Graphics/cardinal.png";
 import fall from "../LUCA_Images/Graphics/fall.png";
-
+import React from "react";
 export const Login = () => {
   return (
     <Container className="white">

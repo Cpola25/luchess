@@ -11,7 +11,6 @@ import { Bottom } from "./components/Bottom";
 import React from "react";
 import {
   Route,
-  BrowserRouter as Router,
   Routes,
 } from "react-router-dom";
 function App() {
@@ -21,15 +20,15 @@ function App() {
         <Navigation />
       </Row>
       <Row>
-        <Router>
+        
           <Routes>
-            <Route path="/" element={<HomeScreen />} />
+            <Route path="/" element={<HomeScreen/>} />
             <Route path="/featured" element={<Featured/>} />
             <Route path="/play" element={<DisabledP/>} />
             <Route path="/tournament" element={<DisabledP/>} />
             <Route path="/login" element={<Login/>} />
           </Routes>
-        </Router>
+        
       </Row>
       <Row>
         <Bottom/>

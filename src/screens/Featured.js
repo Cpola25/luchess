@@ -17,7 +17,7 @@ import generalM from "../LUCA_Images/Event_Posters/generalM.jpg";
 import MardiG from "../LUCA_Images/Event_Posters/MardiG.jpg";
 import christmas from "../LUCA_Images/Event_Posters/christmas.jpg";
 import { Shop } from "../components/shop";
-
+import React from "react";
  const Featured = () => {
   return (
     <Container className="black fonts-style">

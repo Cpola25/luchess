@@ -1,5 +1,5 @@
 import { Container, Row, Table } from "react-bootstrap";
-
+import React from "react";
 export const DisabledP = () => {
   return (
     <Container className="black">

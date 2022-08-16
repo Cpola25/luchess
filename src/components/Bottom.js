@@ -1,4 +1,5 @@
 import { Button, Container, Row } from "react-bootstrap";
+import React from "react";
 
 export const Bottom = () => {
   return (

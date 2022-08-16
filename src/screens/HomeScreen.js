@@ -20,12 +20,8 @@ import Sai from "../LUCA_Images/Headshots/Sai.jpg";
 import Elijah from "../LUCA_Images/Headshots/Elijah.jpg";
 import Connor from "../LUCA_Images/Headshots/Connor.jpg";
 import Alfredo from "../LUCA_Images/Headshots/Alfredo.jpeg";
-import halloween from "../LUCA_Images/Event_Posters/halloween.jpg";
-import generalM from "../LUCA_Images/Event_Posters/generalM.jpg";
-import MardiG from "../LUCA_Images/Event_Posters/MardiG.jpg";
-import christmas from "../LUCA_Images/Event_Posters/christmas.jpg";
-import { Shop } from "../components/shop";
 import { ContactUs } from "../components/Contact";
+import React from "react";
 
 export const HomeScreen = () => {
   return (
