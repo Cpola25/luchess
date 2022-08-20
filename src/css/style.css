@@ -337,11 +337,7 @@
     padding: 15% 7% 5% 7% !important;
 }
 
-.login-image {
-    width: 70% !important;
-    margin-left: 16% !important;
-    margin-bottom: 10% !important;
-}
+
 
 /***************************************************************************/
                          /**Extra Space N Such */
@@ -680,6 +676,63 @@ textarea {
 
 
 }
+
 /***************************************************************************/
-                                /**Events*/
+                                /**Login Page*/
 /***************************************************************************/
+.login-inputs{
+    border: black !important;
+    border-width: 1px !important;
+    border-style: groove !important;
+    border-radius: 0 !important;
+    color: rgb(0, 0, 0) !important;
+    letter-spacing: 0.2 ch !important;
+    background-color: rgba(255, 255, 255, 0.426) !important;
+    margin: 0;
+    font-family: 'Nanum Gothic Coding', monospace !important;
+    font-size: inherit;
+    line-height: 2ch !important;
+    width: 50% !important;
+    margin-bottom: 2% !important;
+    padding: 2% !important;
+    
+
+}
+.login-BigDiv{
+    width: 50% !important;
+    margin-left: 35% !important;
+    margin-top: 10% !important;
+    margin-bottom: 10% !important;
+}
+
+.NoACC-button {
+    background-color: transparent !important;
+    color: rgba(96, 96, 96, 0.625) !important;
+    text-decoration: none !important;
+    letter-spacing: 0.3ch !important;
+    font-size: 1.5vh !important;
+  
+}
+.NoACC-button:hover{
+    color: rgb(123, 1, 1) !important;
+}
+.nAC-div{
+    width: 50% !important;
+   
+}
+.login-ico{
+    width: 35% !important;
+   margin: 0px !important;
+   margin-left: 5% !important ;
+}
+.login-userButton{
+    background-color: rgba(143, 2, 2, 0.793) !important;
+    margin-left: 13% !important;
+    width: 25% !important;
+    border-radius: 5% !important;
+    padding: 1% !important;
+    
+}
+.login-userButton:hover {
+    background-color: rgb(199, 23, 23) !important;
+}
