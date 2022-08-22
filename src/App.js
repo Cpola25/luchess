@@ -24,8 +24,8 @@ function App() {
           <Routes>
             <Route path="/" element={<HomeScreen/>} />
             <Route path="/featured" element={<Featured/>} />
-            <Route path="/play" element={<DisabledP/>} />
-            <Route path="/tournament" element={<DisabledP/>} />
+            <Route path="/play" element={<Play/>} />
+            <Route path="/chessCom" element={<DisabledP/>} />
             <Route path="/login" element={<Login/>} />
           </Routes>
         

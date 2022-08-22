@@ -736,3 +736,22 @@ textarea {
 .login-userButton:hover {
     background-color: rgb(199, 23, 23) !important;
 }
+
+
+
+
+
+
+#playBanner{
+    width: 100% !important;
+    padding: 5% !important; 
+    color: rgb(255, 255, 255);
+    background-color: #7766d700;
+    font-family: 'Nanum Gothic Coding', monospace !important;
+    background-image: url("../LUCA_Images/Graphics/clubBack.png");
+   margin-top: 10% !important;
+  
+  }
+  #clubIcon{
+    background-color:pink !important; 
+  }

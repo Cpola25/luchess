@@ -14,9 +14,10 @@ import halloween from "../LUCA_Images/Event_Posters/halloween.jpg";
 import generalM from "../LUCA_Images/Event_Posters/generalM.jpg";
 import MardiG from "../LUCA_Images/Event_Posters/MardiG.jpg";
 import christmas from "../LUCA_Images/Event_Posters/christmas.jpg";
+import Chess_Tournament from "../LUCA_Images/Event_Posters/Chess_Tournament.jpeg";
 import { Shop } from "../components/shop";
 import React from "react";
- const Featured = () => {
+const Featured = () => {
   return (
     <Container className="black fonts-style">
       <Row className="black spacer  extra-padding "></Row>
@@ -83,26 +84,39 @@ import React from "react";
               </div>
             </div>
           </Carousel.Item>
+          <Carousel.Item>
+            <div className="news-div">
+              <img className="news-pic" src={jaimik} alt="Second slide" />
+              <div className="news-text">
+                <h3 className="red-text font-large">Top player of 2022!</h3>
+                <p className="font-small">
+                  A shoutout for recent graduate Jaimik Trivedi for being our
+                  top player this year! Jaimik showed incredible skill winning
+                  1st place in every tournament! He was also one of our most
+                  dedicated members!
+                </p>
+              </div>
+            </div>
+          </Carousel.Item>
         </Carousel>
       </Row>
       <Row className="spacer black extra-padding" />
-      
-     
+
       <Row className="event-back white extra-padding ">
         <h1 className="text-center bottom-margin">Events</h1>
         <div className="event-container  event1 ">
-          <img src={MardiG} alt="Event" className="event-pic" />
+          <img src={Chess_Tournament} alt="Event" className="event-pic" />
           <a
             className="event-button"
-            href="https://luhub.lamar.edu/LUChess/rsvp_boot?id=1593430"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScsPvjD6acbu0FsIrgKC-Mj8YveNVImPodusgenVtTW_0mFaA/viewform"
           >
             <div className="event-text">Register</div>
           </a>
           <p className="event-caption">
-            Type: Tournament <br/>
-            Date: Event Over <br />
+            Type: Tournament <br />
+            Date: Sep 24, 2022 <br />
             Time: N/A <br />
-            Location: N/A
+            Location: Chess.com 
           </p>
         </div>
         <div className="event-container">
@@ -114,7 +128,7 @@ import React from "react";
             <div className="event-text">Register</div>
           </a>
           <p className="event-caption">
-            Type: Meeting <br/>
+            Type: Meeting <br />
             Date: Event Over <br />
             Time: N/A <br />
             Location: N/A
@@ -129,7 +143,8 @@ import React from "react";
             <div className="event-text">Register</div>
           </a>
           <p className="event-caption ">
-            Type: Tournament<br/>
+            Type: Tournament
+            <br />
             Date: Event Over <br />
             Time: N/A <br />
             Location: N/A
@@ -144,7 +159,8 @@ import React from "react";
             <div className="event-text">Register</div>
           </a>
           <p className="event-caption">
-          Type: Tournament<br/>
+            Type: Tournament
+            <br />
             Date: Event Over <br />
             Time: N/A <br />
             Location: N/A
@@ -156,10 +172,8 @@ import React from "react";
       <Row className="black fonts-style font-regular fonts-style-dark extra-padding ">
         <h1 className=" tab-text  ">Reasources</h1>
         <hr />
-    
-        
+
         <Container className="yo top-margin">
-         
           <iframe
             className="yT"
             frameborder="0"
@@ -195,4 +209,4 @@ import React from "react";
     </Container>
   );
 };
-export default Featured; 
+export default Featured;

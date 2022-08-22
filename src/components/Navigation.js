@@ -30,11 +30,11 @@ export const Navigation = () => {
                   <Button href="/featured" className="fonts-style nav-button">
                     Featured
                   </Button>
-                  <Button href="/tournament" className="fonts-style nav-button">
+                  <Button href="/chessCom" className="fonts-style nav-button">
                     Tournament
                   </Button>
                   <Button href="/play" className="fonts-style nav-button">
-                    Play
+                    Chess.com
                   </Button>
 
             
