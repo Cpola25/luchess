@@ -44,7 +44,7 @@ export const HomeScreen = () => {
         <Carousel className="bottom-margin">
           <Carousel.Item>
             <div className="team-div font-style ">
-              <h3 className="bottom-margin">Sponsors</h3>
+              <h3 className="bottom-margin team-title">Sponsors</h3>
               <div className=" zoom team-div1 to-left ">
                 <Image className="team-person" src={DrFlo} />
                 <h2 className=" team-name">Dr.Flores</h2>
