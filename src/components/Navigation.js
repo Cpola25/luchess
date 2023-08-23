@@ -4,6 +4,7 @@ import "../css/style.css";
 import { Image } from "react-bootstrap";
 import Logo from "../LUCA_Images/Graphics/Logo.png";
 
+
 export const Navigation = () => {
   return (
     <Container fluid>

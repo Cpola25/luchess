@@ -6,13 +6,13 @@ export const Login = () => {
   return (
     <Container className="white">
       <Row className="extra-padding fonts-style fonts-style-dark ">
-
         <div className="login-BigDiv">
-
           <div className=" loginInputDiv">
-          <div>
-            <Image className="login-ico" src={fall} />
-          </div>
+            <div>
+              <Image className="login-ico" src={fall} />
+            </div>
+
+            <Form>
             <>
               <Form.Label htmlFor="inputPassword5">Username</Form.Label>
               <Form.Control
@@ -31,16 +31,15 @@ export const Login = () => {
               />
             </>
             <input className="login-userButton" type="submit" value="Login" />
+            </Form>
+    
             <div className="text-center nAC-div">
-            <a href="/login" className=" NoACC-button ">
-          Don't Have an Account?
-        </a>
+              <a href="/login" className=" NoACC-button ">
+                Don't Have an Account?
+              </a>
             </div>
-         
           </div>
-          
         </div>
-       
       </Row>
     </Container>
   );

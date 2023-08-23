@@ -7,17 +7,42 @@ import {
   Image,
   Row,
 } from "react-bootstrap";
-import jaimik from "../LUCA_Images/Event_Photos/jaimik.png";
-import ltx from "../LUCA_Images/Event_Photos/ltx.jpg";
-import Logo from "../LUCA_Images/Graphics/Logo.png";
-import halloween from "../LUCA_Images/Event_Posters/halloween.jpg";
-import generalM from "../LUCA_Images/Event_Posters/generalM.jpg";
-import MardiG from "../LUCA_Images/Event_Posters/MardiG.jpg";
-import christmas from "../LUCA_Images/Event_Posters/christmas.jpg";
-import Chess_Tournament from "../LUCA_Images/Event_Posters/Chess_Tournament.jpeg";
+
 import { Shop } from "../components/shop";
 import React from "react";
+import NewsEntry from "../components/NewsEntry";
+import EventCard from "../components/EventCard";
+import {newsEntries, eventEntries, videoEntries} from "../constants/ClubInfo.js"
+import VideoCard from "../components/VideoCard";
 const Featured = () => {
+
+  const newsItems = [];
+  const eventItems = [];
+  const videoItems = [];
+
+  for (let i = 0; i < newsEntries.length; i++) {
+    const carouselItem = (
+      <div className="team-div" key={i}>
+        <NewsEntry {...newsEntries[i]} />
+      </div>
+    );
+    newsItems.push(carouselItem);
+  }
+
+  for (let i = 0; i < eventEntries.length; i++) {
+    const event = (
+        <EventCard {...eventEntries[i]} />
+    );
+    eventItems.push(event);
+  }
+
+  for (let i = 0; i < videoEntries.length; i++) {
+    const video = (
+        <VideoCard {...videoEntries[i]} />
+    );
+    videoItems.push(video);
+  }
+
   return (
     <Container className="black fonts-style">
       <Row className="black spacer  extra-padding "></Row>
@@ -33,175 +58,30 @@ const Featured = () => {
 
       <Row className="news-background">
         {" "}
-        <Carousel className=" card-background">
-          <Carousel.Item>
-            <div className="news-div ">
-              <img className="news-pic" src={ltx} alt="First slide" />
-              <div className="news-text">
-                <h3 className="red-text font-large">LTX Chess Club!</h3>
-                <p className="font-small ">
-                  A new chess club opens in Lumberton TX thanks to Dr. Flores!
-                  Interested in joining? See meeting times below: <br />
-                  <br />
-                  <li>Monday: 02/14 @ 6PM </li>
-                  <li>Monday: 02/21 @ 6PM </li>
-                  <li>Monday: 02/28 @ 6PM</li>
-                  <br />
-                  133 #C, N Lhs Dr, Lumberton, TX 77657{" "}
-                </p>
-              </div>
-            </div>
-          </Carousel.Item>
-          <Carousel.Item>
-            <div className="news-div">
-              <img className="news-pic" src={jaimik} alt="Second slide" />
-              <div className="news-text">
-                <h3 className="red-text font-large">Top player of 2022!</h3>
-                <p className="font-small">
-                  A shoutout for recent graduate Jaimik Trivedi for being our
-                  top player this year! Jaimik showed incredible skill winning
-                  1st place in every tournament! He was also one of our most
-                  dedicated members!
-                </p>
-              </div>
-            </div>
-          </Carousel.Item>
-          <Carousel.Item>
-            <div className="news-div">
-              <img className="news-pic" src={Logo} alt="Third slide" />
-              <div className="news-text">
-                <h3 className="red-text font-large">New LUCA Leaders!</h3>
-                <p className="font-small">
-                  Congrats to all winners of the LUCA 2022-2023 election!
-                  <br />
-                  <br />
-                  <li>President: Elijah Kelly </li>
-                  <li>Vice President: Alfredo Meza </li>
-                  <li>Secretary: Conner Montgomery</li>
-                  <li> Treasurer: Sai Harshith Tanneru </li>
-                  <li>Tech: Lizbeth Trujillo</li>
-                </p>
-              </div>
-            </div>
-          </Carousel.Item>
-          <Carousel.Item>
-            <div className="news-div">
-              <img className="news-pic" src={jaimik} alt="Second slide" />
-              <div className="news-text">
-                <h3 className="red-text font-large">Top player of 2022!</h3>
-                <p className="font-small">
-                  A shoutout for recent graduate Jaimik Trivedi for being our
-                  top player this year! Jaimik showed incredible skill winning
-                  1st place in every tournament! He was also one of our most
-                  dedicated members!
-                </p>
-              </div>
-            </div>
-          </Carousel.Item>
+        <Carousel className="card-background">
+          {newsItems.map((carouselItem, index) => (
+            <Carousel.Item>{carouselItem}</Carousel.Item>
+          ))}
         </Carousel>
       </Row>
+
       <Row className="spacer black extra-padding" />
 
       <Row className="event-back white extra-padding ">
         <h1 className="text-center bottom-margin">Events</h1>
-        <div className="event-container  event1 ">
-          <img src={Chess_Tournament} alt="Event" className="event-pic" />
-          <a
-            className="event-button"
-            href="https://docs.google.com/forms/d/e/1FAIpQLScsPvjD6acbu0FsIrgKC-Mj8YveNVImPodusgenVtTW_0mFaA/viewform"
-          >
-            <div className="event-text">Register</div>
-          </a>
-          <p className="event-caption">
-            Type: Tournament <br />
-            Date: Sep 24, 2022 <br />
-            Time: N/A <br />
-            Location: Chess.com 
-          </p>
-        </div>
-        <div className="event-container">
-          <img src={generalM} alt="Event" className="event-pic" />
-          <a
-            className="event-button"
-            href="https://luhub.lamar.edu/LUChess/rsvp_boot?id=1474212"
-          >
-            <div className="event-text">Register</div>
-          </a>
-          <p className="event-caption">
-            Type: Meeting <br />
-            Date: Event Over <br />
-            Time: N/A <br />
-            Location: N/A
-          </p>
-        </div>
-        <div className="event-container">
-          <img src={halloween} alt="Event" className="event-pic" />
-          <a
-            className="event-button"
-            href="https://luhub.lamar.edu/LUChess/rsvp_boot?id=1367725"
-          >
-            <div className="event-text">Register</div>
-          </a>
-          <p className="event-caption ">
-            Type: Tournament
-            <br />
-            Date: Event Over <br />
-            Time: N/A <br />
-            Location: N/A
-          </p>
-        </div>
-        <div className="event-container">
-          <img src={christmas} alt="Event" className="event-pic" />
-          <a
-            className="event-button"
-            href="https://luhub.lamar.edu/LUChess/rsvp_boot?id=1397010"
-          >
-            <div className="event-text">Register</div>
-          </a>
-          <p className="event-caption">
-            Type: Tournament
-            <br />
-            Date: Event Over <br />
-            Time: N/A <br />
-            Location: N/A
-          </p>
-        </div>
+        {eventItems.map((event, index) => (
+          <> {event}</>
+          ))}
       </Row>
 
       <Row className="grey extra-padding spacer" />
       <Row className="black fonts-style font-regular fonts-style-dark extra-padding ">
         <h1 className=" tab-text  ">Reasources</h1>
         <hr />
-
         <Container className="yo top-margin">
-          <iframe
-            className="yT"
-            frameborder="0"
-            allowfullscreen="1"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            title="Learn to Play!"
-            src="https://www.youtube.com/embed/OCSbzArwB10?enablejsapi=1&amp;
-      origin=http%3A%2F%2Flocalhost%3A3000&amp;widgetid=27"
-            id="widget28"
-          ></iframe>
-          <iframe
-            className="yT"
-            frameborder="0"
-            allowfullscreen="1"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            title="Openings"
-            src="https://www.youtube.com/embed/Txvz97tzDfM?enablejsapi=1&amp;origin=http%3A%2F%2Flocalhost%3A3000&amp;widgetid=25"
-            id="widget26"
-          ></iframe>
-          <iframe
-            className="yT"
-            frameborder="0"
-            allowfullscreen="1"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            title="Openings"
-            src="https://www.youtube.com/embed/SXrKRA_KZ5k"
-            id="widget26"
-          ></iframe>
+        {videoItems.map((video, index) => (
+          <>{video}</>
+          ))}
         </Container>
       </Row>
 

@@ -188,12 +188,6 @@
                               /**Featured*/
 /***************************************************************************/
 
-.yT {
-    margin-right: 3% !important;
-    height: 100% !important;
-    width: 30% !important;
-}
-
 .featured-Heading {
     background-image: url("../LUCA_Images/Banners/Banner6.png");
     background-size: 90% 100%;
@@ -221,19 +215,8 @@
 
 .news-text {
     margin-top: 3% !important;
-    width: 39% !important;
-    float: left;
     letter-spacing: 0.005ch;
-    font-size: 150vh !important;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.news-pic {
-    width: 30% !important;
-    background-color: rgb(255, 255, 255) !important;
-    float: left !important;
-    margin-right: 5% !important;
-    margin-left: 14% !important;
+    font-size: 15vh !important;
 }
 
 
@@ -241,44 +224,31 @@
     background-color: rgba(107, 21, 4, 0);
 }
 
-.news-div {
 
-    width: 100% !important;
-    padding: 1% !important;
-    font-family: 'Kaisei Opti', serif !important;
-
-}
 .card-background {
-
     background-color: rgba(0, 0, 0, 0.881) !important;
-    padding: 5% !important;
     border-style: double;
     border-color: rgba(255, 255, 255, 0.548) !important;
     border-width: 10px;
-    max-width: 90% !important;
-    height: 50% !important;
-    margin-left: 4% !important;
-    margin-top: 1% !important;
+    width: 90% !important;
     box-shadow: 5px 5px 20px 10px rgba(75, 75, 75, 0.854);
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .news-background {
     background-image: url("../LUCA_Images/Graphics/Chekeredwhite.png");
     background-repeat: no-repeat !important;
-    background-size: 96% auto;
+    background-size: 97% auto;
     margin-left: 2% !important;
     padding: 5% !important;
     background-color: black !important;
     margin-top: 1% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-}
-
-
-.red-text {
-    color: rgb(207, 4, 4) !important;
-    margin-bottom: 5% !important;
-    font-weight: bolder;
 }
 
 /***************************************************************************/
@@ -361,8 +331,6 @@
     border-left: rgba(255, 255, 255, 0) !important;
     margin-top: 1% !important;
     color: rgb(255, 255, 255);
-
-
 }
 .bottom-margin {
     margin-bottom: 3% !important;
@@ -395,7 +363,7 @@
 
 
 .event1 {
-    margin-left: 3% !important;
+    margin-left: 1% !important;
 
 }
 
@@ -407,7 +375,7 @@
     width: 23%;
     background-color: rgb(131, 131, 131);
     margin-right: 1%;
-
+    margin-bottom: 2%;
 
 }
 
@@ -601,15 +569,6 @@ textarea {
     padding: 2% !important;
 }
 
-.not-availableText {
-    background-color: rgba(0, 0, 0, 0.496) !important;
-    padding: 1% !important;
-    letter-spacing: 0.3ch !important;
-    padding-top: 3% !important;
-    margin-top: 10% !important;
-}
-
-
 /***************************************************************************/
                            /**  Shop Component */
 /***************************************************************************/
@@ -673,8 +632,6 @@ textarea {
     width: 96% !important;
     margin-left: 2% !important;
     padding: 5% !important;
-
-
 }
 
 /***************************************************************************/
@@ -739,9 +696,6 @@ textarea {
 
 
 
-
-
-
 #playBanner{
     width: 100% !important;
     padding: 5% !important; 
@@ -754,4 +708,8 @@ textarea {
   }
   #clubIcon{
     background-color:pink !important; 
+  }
+  #activeMembers{
+      margin-top: 20% !important;
+      background-color: black !important;
   }
