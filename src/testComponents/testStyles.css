@@ -1,0 +1,38 @@
+.StoreCardBackground {
+    width: 274px;
+    height: 322px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.StoreCardImage {
+    width: 226px;
+    height: 185px;
+    flex-shrink: 0;
+}
+
+.StoreCardDescription {
+    width: 226px;
+    color: var(--Primary, #545F71);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+    letter-spacing: -0.32px;
+}
+
+.StoreCardPrice {
+    color: var(--Primary, #545F71);
+    text-align: right;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 125% */
+    letter-spacing: -0.48px;
+}

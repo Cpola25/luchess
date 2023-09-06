@@ -13,6 +13,7 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
+import { TestPage } from "./testComponents/testPage";
 function App() {
   return (
     <Container fluid>
@@ -27,6 +28,7 @@ function App() {
             <Route path="/play" element={<Play/>} />
             <Route path="/chessCom" element={<DisabledP/>} />
             <Route path="/login" element={<Login/>} />
+            <Route path = "/superSecretWebPage" element={<TestPage/>} />
           </Routes>
         
       </Row>
